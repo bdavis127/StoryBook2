@@ -14,4 +14,4 @@ var sequelize = new Sequelize("oz_db", "root", "", {
 });
 
 // Exports the connection for other files to use
-module.exports = sequelize;
+module.exports = sequelize; 

@@ -26,5 +26,7 @@ require("./routes/html-routes.js")(app);
   console.log("App listening on PORT " + PORT);
 });*/
 
-app.listen(process.env.PORT || 8080);
+app.listen(process.env.PORT || 8080, function(){
+  console.log("Express server listening on port", this.address().port, app.settings.env);
+});
 

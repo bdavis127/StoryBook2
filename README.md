@@ -1,3 +1,3 @@
 # StoryBook2
 
-GitHub link: https://bdavis127.github.io/StoryBook2/
+Heroku link: https://git.heroku.com/shrouded-shore-77791.git
